@@ -8,40 +8,37 @@
  */
 int main(void)
 {
-int x;
-int y;
-int i;
-int j;
+int i, j;
+int a, b, c, d;
 
-for (i = 48; i < 58; i++)
+for (i = 0; i < 100; i++)
 {
-	for (j = 48; j < 58; j++)
+	a = i / 10;
+	b = i % 10;
+
+	for (j = 0; j < 100; j++)
 	{
-		for (x = i; x < 58; x++)
+		c = j / 10;
+		d = j % 10;
+
+		if (a < c || (a == c && b < d))
 		{
-			for (y = i; y < 58; y++)
+			putchar(a + '0');
+			putchar(b + '0');
+			putchar(32);
+			putchar(c + '0');
+			putchar(d + '0');
+
+			if (!(a == 9 && b == 8))
 			{
-				if (x == j && y == i)
-					continue;
-				else
-				{
-					putchar(i);
-					putchar(j);
-					putchar(' ');
-					putchar(x);
-					putchar(y);
-					if (i < 57 || j < 56 || x < 57 || y < 57)
-					{
-						putchar(44);
-						putchar(' ');
-					}
-				}
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
 }
 
-putchar('\n');
+putchar(10);
 
 return (0);
 }
