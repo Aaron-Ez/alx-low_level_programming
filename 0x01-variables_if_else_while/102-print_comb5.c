@@ -19,7 +19,7 @@ for (i = 48; i < 58; i++)
 	{
 		for (x = i; x < 58; x++)
 		{
-			for (y = j; y < 50; y++)
+			for (y = j; y < 58; y++)
 			{
 				if (x == i && y == j)
 					continue;
