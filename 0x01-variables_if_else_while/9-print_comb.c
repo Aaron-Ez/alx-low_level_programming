@@ -16,7 +16,7 @@ int main(void)
 		if (x < 57)
 		{
 			putchar(44);
-			putchar(00);
+			putchar(' ');
 		}
 	}
 
