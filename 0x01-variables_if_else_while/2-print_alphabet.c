@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints all alphabets in lower case 
+ * main - prints all alphabets in lower case
  * starting form small letter a
  * Return: 0
  */
