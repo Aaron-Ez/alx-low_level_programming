@@ -19,6 +19,8 @@ int main(void)
 			for (z = y; z < 58; z++)
 			{
 				if (x == y || y == z || x == z)
+					continue;
+				else
 				{
 					putchar(x);
 					putchar(y);
@@ -34,6 +36,6 @@ int main(void)
 	}
 
 	putchar('\n');
-	
+
 	return (0);
 }
