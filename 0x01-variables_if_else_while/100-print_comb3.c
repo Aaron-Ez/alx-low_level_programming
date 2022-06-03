@@ -23,19 +23,15 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				if (x < 57)
+				if (x < 56)
 				{
 					putchar(44);
 					putchar(' ');
-					if (x < 56)
-					{
-						putchar(44);
-						putchar(' ');
-					}
 				}
 			}
 		}
 	}
+
 	putchar('\n');
 
 	return (0);
