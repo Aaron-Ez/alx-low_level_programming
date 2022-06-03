@@ -21,7 +21,7 @@ for (i = 48; i < 58; i++)
 		{
 			for (y = j; y < 58; y++)
 			{
-				if (x == i && y == j)
+				if (x == j && y == i)
 					continue;
 				else
 				{
