@@ -3,7 +3,7 @@
 /**
  * main - check for multiple of 3 and 5
  * then print there sum
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
