@@ -7,11 +7,13 @@
 
 void print_alphabet(void)
 {
-	char h=97;
-	while(h < 123)
+	char h = 97;
+
+	while (h < 123)
 	{
 		_putchar(h);
 		h++;
 	}
+
 	_putchar('\n');
 }
