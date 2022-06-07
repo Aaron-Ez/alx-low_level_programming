@@ -16,6 +16,6 @@ int main(void)
 		j = k;
 		k = sum;
 		if (i == 48)
-			printf("%id\n", x);
+			printf("%id\n", j);
 	}
 }
