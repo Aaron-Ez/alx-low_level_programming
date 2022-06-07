@@ -7,8 +7,8 @@
 
 void print_alphabet(void)
 {
-	char h;
-	while(h < 58)
+	char h=97;
+	while(h < 123)
 	{
 		_putchar(h);
 		h++;
