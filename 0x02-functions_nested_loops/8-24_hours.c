@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * ack_bauer - prints every minute in one day
+ * jack_bauer - prints every minute in one day
  * Return: void(noting)
  */
 void jack_bauer(void)
 {
 	int hour, min;
 
-	for(hour = 0; hour < 24; hour++)
+	for (hour = 0; hour < 24; hour++)
 	{
-		for(min = 0; min < 60; min++)
+		for (min = 0; min < 60; min++)
 		{
 			_putchar((hour / 10) + '0');
 			_putchar((hour % 10) + '0');
