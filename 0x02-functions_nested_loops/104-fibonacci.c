@@ -2,7 +2,7 @@
 
 /**
  * main - prints the first 98 fibonacci number
- * 
+ *
  * Return: 0
  */
 int main(void)
