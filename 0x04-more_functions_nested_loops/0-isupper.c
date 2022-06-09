@@ -9,10 +9,10 @@ int _isupper(int c)
 {
 	if (c >= 'A' || c <= 'Z')
 	{
-		printf("%c: %d", c, 1);
+		return (1);
 	}
 	else if (c >= 'a' || c <= 'z')
 	{
-		printf("%c: %d", c, 0);
+		return (0);
 	}
 }
