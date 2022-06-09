@@ -2,8 +2,8 @@
 
 /**
  * _isdigit - checks for digit
- * @c: print 0 or 1
- * Return: answer
+ * @c: print int
+ * Return: 0
  */
 
 int _isdigit(int c)
