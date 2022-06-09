@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print all number 0 to 9
+ * print_most_numbers - print numbers
  *
- * Return: 0
+ * Return: Always 0
  */
 
 void print_most_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 48; c <= 57; c++)
+	int = 0;
+	while (i < 10)
 	{
-		if ( c == 50 || c == 52)
+		if (i != 2 && i != 4)
 		{
-			continue;
+			_putchar (i + '0');
 		}
-
-		_putchar(c);
-
+		i++;
 	}
 
 	_putchar('\n');
