@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints Fizz Buzz according to input
+ * main - Entry piont
  * Return: Always 0
  */
 int main(void)
