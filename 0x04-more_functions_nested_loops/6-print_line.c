@@ -1,20 +1,24 @@
 #include "main.h"
 
 /**
- * print_line - check for a digit
- * @n: number of _ to be printed
- * Return: void
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character _ should be printed
  */
 
 void print_line(int n)
 {
-	int i = 0;
-	
-	while (i < n && n > 0)
+	if (n <= 0)
 	{
-		_putchar('_');
-		i++;
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else
+	{
+		int i;
 
+		for (i = 1; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
 }
