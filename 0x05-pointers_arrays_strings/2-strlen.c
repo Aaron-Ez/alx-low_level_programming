@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -9,5 +8,12 @@
 
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int x = 0;
+
+	for (int i = 0; s[i] > 0; i++)
+	{
+		x++;
+	}
+
+	return (x);
 }
