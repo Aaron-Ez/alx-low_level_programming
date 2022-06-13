@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints string in reverse order
- * s - accepts string argument
+ * @s: accepts string argument
  * Return: void
  */
 
@@ -16,7 +16,7 @@ void print_rev(char *s)
 		x++;
 	}
 
-	for (i = x-1; s[i] > 0; i--)
+	for (i = x - 1; s[i] > 0; i--)
 	{
 		_putchar(s[i]);
 	}
