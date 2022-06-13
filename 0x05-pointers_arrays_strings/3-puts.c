@@ -2,7 +2,7 @@
 
 /**
  * _puts - takes arument and prints the arument
- * str - accepts string argument
+ * @str: accepts string argument
  * Return: void
  */
 
@@ -14,6 +14,6 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
-	
+
 	_putchar('\n');
 }
