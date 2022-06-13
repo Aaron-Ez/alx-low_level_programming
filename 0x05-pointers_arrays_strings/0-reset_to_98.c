@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - changes the value of parementer entered to number 98
- * n points to argument give to reset_to_98
+ * (*n) takes argument and points to it
  * Return: void
  */
 
