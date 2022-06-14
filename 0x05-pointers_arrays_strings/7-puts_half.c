@@ -18,7 +18,7 @@ void puts_half(char *str)
 		x++;
 	}
 
-	y = (x-1) / 2;
+	y = (x - 1) / 2;
 	z = x / 2;
 
 	if (x % 2 == 0)
@@ -35,4 +35,6 @@ void puts_half(char *str)
 			_putchar(str[i]);
 		}
 	}
+
+	_putchar('\n');
 }	
