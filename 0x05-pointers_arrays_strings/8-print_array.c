@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints the content of array as give range
- * @a: accpets array name 
+ * @a: accpets array name
  * @n: accpets the range of the array to prints its content
  * Return: void
  */
@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
-		if (i <= n - 2)
+		if (i <= n - 1)
 		{
 			printf(", ");
 		}
