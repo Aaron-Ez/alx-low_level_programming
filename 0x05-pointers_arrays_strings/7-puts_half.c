@@ -28,7 +28,7 @@ void puts_half(char *str)
 			_putchar(str[i]);
 		}
 	}
-	else
+	else if (x % 2 != 0)
 	{
 		for (i = y; str[i] > 0; i++)
 		{
@@ -37,4 +37,4 @@ void puts_half(char *str)
 	}
 
 	_putchar('\n');
-}	
+}
