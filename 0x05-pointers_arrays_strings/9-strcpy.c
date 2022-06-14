@@ -22,10 +22,10 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	}
 
-	for( ; i < x; i++)
+	for (i = 0 ; i < x; i++)
 	{
 		dest[i] = '\0';
 	}
 
-	return dest;
+	return (dest);
 }
