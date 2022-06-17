@@ -3,7 +3,7 @@
 /**
  * rot13 - add 13 to a string single char and replace with it
  * @s: accpets a string argument
- * Return: rotated string
+ * Return: s
  */
 
 char *rot13(char *s)
