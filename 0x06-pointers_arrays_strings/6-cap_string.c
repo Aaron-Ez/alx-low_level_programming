@@ -3,7 +3,7 @@
 /**
  * cap_string - capitalizes all words
  * @s: accept string argument
- * Return: capitalized string
+ * Return: s
  */
 
 char *cap_string(char *s)
@@ -28,6 +28,6 @@ char *cap_string(char *s)
 		}
 		count++;
 	}
-	
+
 	return (s);
 }
