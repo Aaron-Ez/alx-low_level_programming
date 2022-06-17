@@ -6,7 +6,7 @@
  * Return: capitalized string
  */
 
-char *chap_string(char *s)
+char *cap_string(char *s)
 {
 	int count = 0;
 	int i;
