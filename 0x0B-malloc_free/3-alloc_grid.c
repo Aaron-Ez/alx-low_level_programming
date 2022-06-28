@@ -1,22 +1,43 @@
 #include "main.h"
-
 /**
- * array_range - creates an array of integers
- * @min: minimum
- * @max: maximum
- * Return: array
+ * alloc_grid - allocates a grid, make space and free space
+ * @width: takes in width of grid
+ * @height: height of grid
+ * Return: grid with freed spaces
  */
-int *array_range(int min, int max)
+
+int **alloc_grid(int width, int height)
 {
-	int *arr, i = 0, t = min;
+/*Declaring variables*/
+int **grid;
+int i, j;
 
-	if (min > max)
-		return (0);
-	arr = malloc((max - min + 1) * sizeof(int));
+if (width <= 0 || height <= 0)
+{
+return (NULL);
+}
 
-	if (!arr)
-		return (0);
-	while (i <= max - min)
-		arr[i++] = t++;
-	return (arr);
+grid = malloc(sizeof(int *) * height); /*malloc*/
+
+if (grid == NULL)
+{
+return (NULL);
+}
+
+for (i = 0; i < height; i++)
+{
+grid[i] = malloc(sizeof(int) * width);
+if (grid[i] == NULL)
+{
+for (i = i - 1; i >= 0; i--)
+{
+free(grid[i]);
+}
+free(grid);
+return (NULL);
+}
+}
+for (i = 0; j < width; j++)
+grid[i][j] = 0;
+return (grid);
 }
