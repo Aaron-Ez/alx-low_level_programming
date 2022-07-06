@@ -6,8 +6,8 @@
  * @size: no of elements
  * @cmp: compare values
  * Return: the first element
- * no match return -1
- * size <= 0 return -1
+ * no match, return -1
+ * size <= 0, return -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
